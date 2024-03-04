@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
     "release": "webpack --mode production --output-path ./release",
-    "publish": "gh-pages -d build"
+    "publish": "gh-pages --remote published -d build"
   },
   "author": "sean morrow",
   "license": "ISC",
